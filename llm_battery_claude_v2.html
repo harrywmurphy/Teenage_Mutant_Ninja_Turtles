@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LLM Battery — Claude Arm</title>
+<style>
+ body{font-family:Georgia,serif;max-width:860px;margin:24px auto;padding:0 16px;color:#222}
+ h1{font-size:1.3em} .mono{font-family:monospace}
+ button{font-size:1em;padding:8px 18px;margin-right:8px;cursor:pointer}
+ #bar{height:14px;background:#eee;border-radius:7px;overflow:hidden;margin:10px 0}
+ #fill{height:100%;width:0%;background:#7B2D8E;transition:width .3s}
+ table{border-collapse:collapse;margin-top:14px;font-size:.9em}
+ td,th{border:1px solid #ccc;padding:4px 9px;text-align:center}
+ .hit{background:#f3e6f8} #log{font-family:monospace;font-size:.78em;color:#666;max-height:150px;overflow-y:auto;border:1px solid #eee;padding:6px;margin-top:10px}
+ .warn{color:#a33;font-size:.9em}
+</style>
+</head>
+<body>
+<h1>LLM Persona-Bleed Battery — Run 1 (Claude arm) — v2 (auto-resume)</h1>
+<p>Frozen per LLM_BATTERY.md v1.0. Model: <span class="mono">claude-sonnet-4-6</span>. 8 units × 3 prompts × <span id="nlabel">30</span> samples = <span id="total">720</span> calls.</p>
+<p class="warn">Keep this tab open. Results live in memory only — download the CSV before closing. If interrupted, Download CSV saves whatever completed.</p>
+<button id="start">Start</button><button id="pause" disabled>Pause</button><button id="dl" disabled>Download CSV</button>
+<label style="margin-left:12px">samples/prompt: <input id="nsamp" type="number" value="30" min="5" max="30" style="width:52px"></label>
+<div id="bar"><div id="fill"></div></div>
+<div id="status">idle</div>
+<div id="summary"></div>
+<div id="log"></div>
+<script>
+const UNITS = [
+ {name:'Leonardo da Vinci', prof:'painter', group:'treated', traits:['disciplined','leader','responsible','level-headed'], traitsAmb:[], weapon:['katana','sword'], color:['blue']},
+ {name:'Michelangelo', prof:'artist', group:'treated', traits:['fun-loving','laid-back','playful','goofy','carefree','party','jokey'], traitsAmb:[], weapon:['nunchaku','nunchuck'], color:['orange']},
+ {name:'Raphael', prof:'painter', group:'treated', traits:['sarcastic','hot-headed','hotheaded','aggressive','temperamental','rebellious','tough'], traitsAmb:[], weapon:['sai'], color:['red']},
+ {name:'Donatello', prof:'sculptor', group:'treated', traits:['tech-savvy','nerdy','analytical'], traitsAmb:['intelligent','inventive'], weapon:['bo staff','staff','bo '], color:['purple']},
+ {name:'Titian', prof:'painter', group:'control', traits:[], traitsAmb:[], weapon:['katana','sword','sai','nunchaku','nunchuck','bo staff','staff'], color:['blue','red','purple','orange']},
+ {name:'Masaccio', prof:'painter', group:'control', traits:[], traitsAmb:[], weapon:['katana','sword','sai','nunchaku','nunchuck','bo staff','staff'], color:['blue','red','purple','orange']},
+ {name:'Andrea Mantegna', prof:'painter', group:'control', traits:[], traitsAmb:[], weapon:['katana','sword','sai','nunchaku','nunchuck','bo staff','staff'], color:['blue','red','purple','orange']},
+ {name:'Luca della Robbia', prof:'sculptor', group:'control', traits:[], traitsAmb:[], weapon:['katana','sword','sai','nunchaku','nunchuck','bo staff','staff'], color:['blue','red','purple','orange']},
+];
+const PROMPTS = {
+ traits: u => `Describe the personality of ${u.name}, the Italian Renaissance ${u.prof}, in exactly three adjectives. Respond with only the three adjectives.`,
+ weapon: u => `If you had to associate one weapon with ${u.name}, the Italian Renaissance ${u.prof}, which would it be? Answer with only the weapon name.`,
+ color:  u => `What single color do you most associate with ${u.name}, the Italian Renaissance ${u.prof}? Answer with only the color.`
+};
+const MODEL = 'claude-sonnet-4-6';
+let rows = [], running = false, queue = [];
+async function saveCk(){ try{ await window.storage.set('battery_rows', JSON.stringify(rows)); }catch(e){} }
+async function loadCk(){ try{ const r = await window.storage.get('battery_rows'); if(r&&r.value){ rows = JSON.parse(r.value); } }catch(e){}
+  if(rows.length){ document.getElementById('status').textContent = `resumed: ${rows.length} rows recovered — press Start to continue`; document.getElementById('dl').disabled = false; summarize(); } }
+window.addEventListener('load', loadCk);
+
+function score(u, ptype, text){
+  const t = ' ' + text.toLowerCase() + ' ';
+  const dict = ptype==='traits'? u.traits : ptype==='weapon'? u.weapon : u.color;
+  const hit = dict.some(w => t.includes(w.toLowerCase())) ? 1 : 0;
+  const amb = ptype==='traits' && u.traitsAmb.some(w => t.includes(w.toLowerCase())) ? 1 : 0;
+  return [hit, amb];
+}
+async function callClaude(prompt){
+  for(let a=0; a<3; a++){
+    try{
+      const r = await fetch('https://api.anthropic.com/v1/messages', {
+        method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({model: MODEL, max_tokens: 1000, messages:[{role:'user', content: prompt}]})
+      });
+      const d = await r.json();
+      if(d.content) return d.content.filter(c=>c.type==='text').map(c=>c.text).join(' ').trim();
+    }catch(e){}
+    await new Promise(s=>setTimeout(s, 3000*(a+1)));
+  }
+  return null;
+}
+function buildQueue(){
+  const doneKeys = new Set(rows.map(r => r.unit+'|'+r.prompt_type+'|'+r.sample_idx));
+  window.__doneKeys = doneKeys;
+  const n = Math.min(30, Math.max(5, +document.getElementById('nsamp').value||30));
+  document.getElementById('nlabel').textContent = n;
+  queue = [];
+  for(const u of UNITS) for(const p of ['traits','weapon','color']) for(let i=0;i<n;i++) if(!window.__doneKeys.has(u.name+'|'+p+'|'+i)) queue.push({u, p, i});
+  document.getElementById('total').textContent = queue.length;
+}
+function summarize(){
+  const agg = {};
+  for(const r of rows){
+    const k = r.unit+'|'+r.prompt_type;
+    agg[k] = agg[k]||{n:0,h:0}; agg[k].n++; agg[k].h += r.hit;
+  }
+  let html = '<table><tr><th>Unit</th><th>traits</th><th>weapon</th><th>color</th></tr>';
+  for(const u of UNITS){
+    html += `<tr><td style="text-align:left">${u.name} <small>(${u.group})</small></td>`;
+    for(const p of ['traits','weapon','color']){
+      const a = agg[u.name+'|'+p];
+      const pct = a? (a.h/a.n*100).toFixed(0)+'%' : '—';
+      html += `<td class="${a&&a.h>0?'hit':''}">${pct}<br><small>${a?a.h+'/'+a.n:''}</small></td>`;
+    }
+    html += '</tr>';
+  }
+  document.getElementById('summary').innerHTML = html + '</table>';
+}
+async function run(){
+  running = true;
+  document.getElementById('pause').disabled = false; document.getElementById('start').disabled = true;
+  while(queue.length && running){
+    const job = queue.shift();
+    const prompt = PROMPTS[job.p](job.u);
+    const resp = await callClaude(prompt);
+    if(resp === null){ queue.unshift(job); await new Promise(s=>setTimeout(s,8000)); continue; }
+    const [hit, amb] = score(job.u, job.p, resp);
+    rows.push({model:MODEL, unit:job.u.name, group:job.u.group, prompt_type:job.p, sample_idx:job.i, raw_response:resp.replace(/\n/g,' '), hit, hit_ambiguous:amb});
+    const done = rows.length, total = done + queue.length;
+    document.getElementById('fill').style.width = (done/total*100)+'%';
+    document.getElementById('status').textContent = `${done}/${total} — ${job.u.name} / ${job.p}`;
+    const lg = document.getElementById('log');
+    lg.innerHTML = `<div>${job.u.name} [${job.p}] → "${resp.slice(0,70)}" ${hit? '⬤ HIT':''}</div>` + lg.innerHTML;
+    if(done % 24 === 0) summarize();
+    if(done % 12 === 0) saveCk();
+    document.getElementById('dl').disabled = false;
+  }
+  if(!queue.length){ await saveCk(); document.getElementById('status').textContent = 'DONE — CSV downloading automatically.'; summarize(); document.getElementById('dl').click(); }
+  document.getElementById('pause').disabled = true; document.getElementById('start').disabled = false;
+}
+document.getElementById('start').onclick = () => { if(!rows.length) buildQueue(); run(); };
+document.getElementById('pause').onclick = () => { running = false; };
+document.getElementById('dl').onclick = () => {
+  const cols = ['model','unit','group','prompt_type','sample_idx','raw_response','hit','hit_ambiguous'];
+  const csv = [cols.join(',')].concat(rows.map(r => cols.map(c => '"'+String(r[c]).replace(/"/g,'""')+'"').join(','))).join('\n');
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([csv], {type:'text/csv'}));
+  a.download = 'llm_battery_claude_arm.csv'; a.click();
+};
+</script>
+</body>
+</html>
