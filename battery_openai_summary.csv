@@ -1,0 +1,25 @@
+unit,group,prompt_type,n,hits,rate_pct
+Andrea Mantegna,control,color,30,7,23.0
+Andrea Mantegna,control,traits,30,0,0.0
+Andrea Mantegna,control,weapon,30,3,10.0
+Donatello,treated,color,30,24,80.0
+Donatello,treated,traits,30,0,0.0
+Donatello,treated,weapon,30,30,100.0
+Leonardo da Vinci,treated,color,30,3,10.0
+Leonardo da Vinci,treated,traits,30,0,0.0
+Leonardo da Vinci,treated,weapon,30,0,0.0
+Luca della Robbia,control,color,30,29,97.0
+Luca della Robbia,control,traits,30,0,0.0
+Luca della Robbia,control,weapon,30,0,0.0
+Masaccio,control,color,30,15,50.0
+Masaccio,control,traits,30,0,0.0
+Masaccio,control,weapon,30,0,0.0
+Michelangelo,treated,color,30,0,0.0
+Michelangelo,treated,traits,30,0,0.0
+Michelangelo,treated,weapon,30,25,83.0
+Raphael,treated,color,30,0,0.0
+Raphael,treated,traits,30,0,0.0
+Raphael,treated,weapon,30,0,0.0
+Titian,control,color,30,30,100.0
+Titian,control,traits,30,0,0.0
+Titian,control,weapon,30,6,20.0

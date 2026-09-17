@@ -1,0 +1,1 @@
+Permutation, spillover, and decay results — see conversation 2026-09-17; rerun via scripts/03_analysis.py
