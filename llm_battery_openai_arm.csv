@@ -1,0 +1,721 @@
+model,unit,group,prompt_type,sample_idx,raw_response,hit,hit_ambiguous
+gpt-4o-mini,Leonardo da Vinci,treated,traits,0,"Curious, inventive, insightful.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,1,"Curious, innovative, and analytical.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,2,"Curious, innovative, versatile.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,3,"Curious, inventive, introspective.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,4,"Curious, inventive, insightful.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,5,"Curious, inventive, perceptive.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,6,"Curious, inventive, diverse.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,7,"Curious, inventive, insightful.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,8,"Curious, innovative, meticulous.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,9,"Curious, innovative, multidimensional.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,10,"Curious, innovative, versatile.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,11,"Curious, inventive, introspective.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,12,"Curious, innovative, versatile.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,13,"Curious, innovative, and versatile.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,14,"Curious, innovative, versatile.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,15,"Curious, inventive, perceptive.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,16,"Curious, ingenious, imaginative.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,17,"Curious, inventive, insightful.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,18,"Curious, inventive, enigmatic.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,19,"Curious, versatile, innovative.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,20,"Curious, innovative, versatile.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,21,"Curious, inventive, introspective.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,22,"Curious, innovative, meticulous.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,23,"Curious, imaginative, meticulous.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,24,"Curious, innovative, multifaceted.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,25,"Curious, inventive, observant.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,26,"Curious, inventive, introspective.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,27,"Curious, innovative, introspective.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,28,"Curious, innovative, and introspective.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,traits,29,"Curious, inventive, and observant.",0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,0,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,1,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,2,Ballista,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,3,Giant crossbow.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,4,The crossbow.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,5,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,6,The ideal war machine.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,7,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,8,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,9,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,10,Giant Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,11,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,12,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,13,Machine gun.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,14,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,15,Crossbow.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,16,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,17,Machine gun,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,18,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,19,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,20,Tank.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,21,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,22,Crossbow.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,23,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,24,Ballista,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,25,Machine gun.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,26,Crossbow.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,27,Ballista,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,28,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,weapon,29,Crossbow,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,0,Sienna,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,1,Marrone,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,2,Brown,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,3,Sepia.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,4,M sienna,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,5,Sfumato.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,6,Sfumato.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,7,Mona Lisa Brown,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,8,Brown,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,9,Blue,1,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,10,Renaissance Blue,1,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,11,Brown,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,12,Sepia,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,13,Sienna,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,14,Sienna,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,15,Brown,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,16,Brown,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,17,Brown,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,18,Sepia,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,19,Sienna,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,20,Brown,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,21,Blue,1,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,22,Mona Lisa.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,23,Brown,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,24,Sfumato.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,25,Sepia,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,26,Brown,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,27,Sienna,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,28,Mona Lisa.,0,0
+gpt-4o-mini,Leonardo da Vinci,treated,color,29,Brown,0,0
+gpt-4o-mini,Michelangelo,treated,traits,0,"Passionate, temperamental, visionary.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,1,"Passionate, temperamental, innovative.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,2,"Passionate, versatile, introspective.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,3,"Passionate, temperamental, visionary.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,4,"Passionate, intense, visionary.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,5,"Passionate, introspective, and perfectionist.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,6,"Passionate, temperamental, innovative.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,7,"Passionate, introspective, tenacious.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,8,"Passionate, driven, introspective.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,9,"Passionate, creative, ambitious.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,10,"Passionate, innovative, introspective.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,11,"Passionate, creative, introspective.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,12,"Passionate, temperamental, creative.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,13,"Passionate, visionary, impulsive.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,14,"Passionate, introspective, innovative.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,15,"Passionate, innovative, temperamental.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,16,"Passionate, innovative, temperamental.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,17,"Passionate, intense, and innovative.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,18,"Passionate, dedicated, visionary.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,19,"Passionate, intense, visionary.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,20,"Passionate, inventive, temperamental.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,21,"Passionate, determined, visionary.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,22,"Passionate, assertive, genius.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,23,"Passionate, intense, dedicated.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,24,"Passionate, tenacious, visionary.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,25,"Passionate, determined, and introspective.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,26,"Passionate, intense, visionary.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,27,"Passionate, introspective, determined.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,28,"Passionate, inventive, intense.",0,0
+gpt-4o-mini,Michelangelo,treated,traits,29,"Passionate, ambitious, introspective.",0,0
+gpt-4o-mini,Michelangelo,treated,weapon,0,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,1,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,2,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,3,Sledgehammer.,0,0
+gpt-4o-mini,Michelangelo,treated,weapon,4,Spear.,0,0
+gpt-4o-mini,Michelangelo,treated,weapon,5,Nunchaku,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,6,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,7,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,8,Nunchaku,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,9,Nunchaku,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,10,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,11,Nunchaku,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,12,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,13,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,14,Nunchaku,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,15,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,16,Nunchaku,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,17,Nunchaku,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,18,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,19,Nunchaku,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,20,Staff,0,0
+gpt-4o-mini,Michelangelo,treated,weapon,21,Nunchaku,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,22,Spear.,0,0
+gpt-4o-mini,Michelangelo,treated,weapon,23,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,24,Nunchaku,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,25,Staff.,0,0
+gpt-4o-mini,Michelangelo,treated,weapon,26,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,27,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,28,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,weapon,29,Nunchaku.,1,0
+gpt-4o-mini,Michelangelo,treated,color,0,Marble,0,0
+gpt-4o-mini,Michelangelo,treated,color,1,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,2,Marble,0,0
+gpt-4o-mini,Michelangelo,treated,color,3,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,4,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,5,Marble White,0,0
+gpt-4o-mini,Michelangelo,treated,color,6,Marble White,0,0
+gpt-4o-mini,Michelangelo,treated,color,7,Marble,0,0
+gpt-4o-mini,Michelangelo,treated,color,8,Marble white,0,0
+gpt-4o-mini,Michelangelo,treated,color,9,Marble.,0,0
+gpt-4o-mini,Michelangelo,treated,color,10,Marble White,0,0
+gpt-4o-mini,Michelangelo,treated,color,11,Marble white,0,0
+gpt-4o-mini,Michelangelo,treated,color,12,Marble,0,0
+gpt-4o-mini,Michelangelo,treated,color,13,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,14,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,15,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,16,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,17,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,18,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,19,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,20,Marble,0,0
+gpt-4o-mini,Michelangelo,treated,color,21,Marble White,0,0
+gpt-4o-mini,Michelangelo,treated,color,22,Marble white,0,0
+gpt-4o-mini,Michelangelo,treated,color,23,Marble,0,0
+gpt-4o-mini,Michelangelo,treated,color,24,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,25,Marble白,0,0
+gpt-4o-mini,Michelangelo,treated,color,26,Marble.,0,0
+gpt-4o-mini,Michelangelo,treated,color,27,Marble white.,0,0
+gpt-4o-mini,Michelangelo,treated,color,28,Marble.,0,0
+gpt-4o-mini,Michelangelo,treated,color,29,Marble white,0,0
+gpt-4o-mini,Raphael,treated,traits,0,"Elegant, harmonious, innovative.",0,0
+gpt-4o-mini,Raphael,treated,traits,1,"Graceful, meticulous, insightful.",0,0
+gpt-4o-mini,Raphael,treated,traits,2,"Graceful, innovative, and harmonious.",0,0
+gpt-4o-mini,Raphael,treated,traits,3,"Visionary, graceful, meticulous.",0,0
+gpt-4o-mini,Raphael,treated,traits,4,"Gentle, innovative, harmonious.",0,0
+gpt-4o-mini,Raphael,treated,traits,5,"Creative, harmonious, gentle.",0,0
+gpt-4o-mini,Raphael,treated,traits,6,"Charming, meticulous, and innovative.",0,0
+gpt-4o-mini,Raphael,treated,traits,7,"Gentle, innovative, optimistic.",0,0
+gpt-4o-mini,Raphael,treated,traits,8,"Creative, graceful, meticulous.",0,0
+gpt-4o-mini,Raphael,treated,traits,9,"Creative, graceful, harmonious.",0,0
+gpt-4o-mini,Raphael,treated,traits,10,"Imaginative, harmonious, refined.",0,0
+gpt-4o-mini,Raphael,treated,traits,11,"Creative, harmonious, elegant.",0,0
+gpt-4o-mini,Raphael,treated,traits,12,"Creative, harmonious, graceful.",0,0
+gpt-4o-mini,Raphael,treated,traits,13,"Gifted, sensitive, harmonious.",0,0
+gpt-4o-mini,Raphael,treated,traits,14,"Innovative, harmonious, sensitive.",0,0
+gpt-4o-mini,Raphael,treated,traits,15,"Visionary, harmonious, graceful.",0,0
+gpt-4o-mini,Raphael,treated,traits,16,"Creative, harmonious, introspective.",0,0
+gpt-4o-mini,Raphael,treated,traits,17,"Creative, harmonious, diligent.",0,0
+gpt-4o-mini,Raphael,treated,traits,18,"Creative, harmonious, diligent.",0,0
+gpt-4o-mini,Raphael,treated,traits,19,"Creative, harmonious, meticulous.",0,0
+gpt-4o-mini,Raphael,treated,traits,20,"Talented, harmonious, gentle.",0,0
+gpt-4o-mini,Raphael,treated,traits,21,"Gentle, sensitive, harmonious.",0,0
+gpt-4o-mini,Raphael,treated,traits,22,"Creative, harmonious, amiable.",0,0
+gpt-4o-mini,Raphael,treated,traits,23,"Creative, harmonious, gentle.",0,0
+gpt-4o-mini,Raphael,treated,traits,24,"Creative, harmonious, graceful.",0,0
+gpt-4o-mini,Raphael,treated,traits,25,"Creative, harmonious, insightful.",0,0
+gpt-4o-mini,Raphael,treated,traits,26,"Charming, innovative, and meticulous.",0,0
+gpt-4o-mini,Raphael,treated,traits,27,"Creative, visionary, contemplative.",0,0
+gpt-4o-mini,Raphael,treated,traits,28,"Creative, refined, gentle.",0,0
+gpt-4o-mini,Raphael,treated,traits,29,"Creative, graceful, harmonious.",0,0
+gpt-4o-mini,Raphael,treated,weapon,0,Spear.,0,0
+gpt-4o-mini,Raphael,treated,weapon,1,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,2,Spear.,0,0
+gpt-4o-mini,Raphael,treated,weapon,3,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,4,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,5,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,6,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,7,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,8,Rapier.,0,0
+gpt-4o-mini,Raphael,treated,weapon,9,Spear.,0,0
+gpt-4o-mini,Raphael,treated,weapon,10,Spear.,0,0
+gpt-4o-mini,Raphael,treated,weapon,11,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,12,Sword,0,0
+gpt-4o-mini,Raphael,treated,weapon,13,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,14,Rapier,0,0
+gpt-4o-mini,Raphael,treated,weapon,15,Spear.,0,0
+gpt-4o-mini,Raphael,treated,weapon,16,Staff.,0,0
+gpt-4o-mini,Raphael,treated,weapon,17,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,18,Spear.,0,0
+gpt-4o-mini,Raphael,treated,weapon,19,Spear.,0,0
+gpt-4o-mini,Raphael,treated,weapon,20,Staff,0,0
+gpt-4o-mini,Raphael,treated,weapon,21,Rapier.,0,0
+gpt-4o-mini,Raphael,treated,weapon,22,Spear.,0,0
+gpt-4o-mini,Raphael,treated,weapon,23,Spear.,0,0
+gpt-4o-mini,Raphael,treated,weapon,24,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,25,Sword.,0,0
+gpt-4o-mini,Raphael,treated,weapon,26,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,27,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,28,Spear,0,0
+gpt-4o-mini,Raphael,treated,weapon,29,Sword.,0,0
+gpt-4o-mini,Raphael,treated,color,0,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,1,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,2,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,3,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,4,Blue.,0,0
+gpt-4o-mini,Raphael,treated,color,5,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,6,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,7,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,8,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,9,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,10,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,11,Blue.,0,0
+gpt-4o-mini,Raphael,treated,color,12,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,13,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,14,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,15,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,16,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,17,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,18,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,19,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,20,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,21,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,22,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,23,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,24,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,25,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,26,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,27,Blue,0,0
+gpt-4o-mini,Raphael,treated,color,28,Azure.,0,0
+gpt-4o-mini,Raphael,treated,color,29,Blue,0,0
+gpt-4o-mini,Donatello,treated,traits,0,"Innovative, sensitive, introspective.",0,0
+gpt-4o-mini,Donatello,treated,traits,1,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,2,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,3,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,4,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,5,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,6,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,7,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,8,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,9,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,10,"Innovative, introspective, thoughtful.",0,0
+gpt-4o-mini,Donatello,treated,traits,11,"Innovative, sensitive, introspective.",0,0
+gpt-4o-mini,Donatello,treated,traits,12,"Innovative, introspective, passionate.",0,0
+gpt-4o-mini,Donatello,treated,traits,13,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,14,"Innovative, introspective, sensitive.",0,0
+gpt-4o-mini,Donatello,treated,traits,15,"Innovative, introspective, sensitive.",0,0
+gpt-4o-mini,Donatello,treated,traits,16,"Innovative, introspective, sensitive.",0,0
+gpt-4o-mini,Donatello,treated,traits,17,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,18,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,19,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,20,"Creative, introspective, innovative.",0,0
+gpt-4o-mini,Donatello,treated,traits,21,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,22,"Innovative, introspective, sensitive.",0,0
+gpt-4o-mini,Donatello,treated,traits,23,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,24,"Innovative, contemplative, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,25,"Innovative, introspective, masterful.",0,0
+gpt-4o-mini,Donatello,treated,traits,26,"Innovative, introspective, passionate.",0,0
+gpt-4o-mini,Donatello,treated,traits,27,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,traits,28,"Innovative, introspective, sensitive.",0,0
+gpt-4o-mini,Donatello,treated,traits,29,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Donatello,treated,weapon,0,Staff.,1,0
+gpt-4o-mini,Donatello,treated,weapon,1,Bo staff.,1,0
+gpt-4o-mini,Donatello,treated,weapon,2,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,3,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,4,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,5,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,6,Bo staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,7,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,8,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,9,Bō staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,10,Bo staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,11,Bō staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,12,Bō staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,13,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,14,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,15,Bo staff.,1,0
+gpt-4o-mini,Donatello,treated,weapon,16,Bo staff.,1,0
+gpt-4o-mini,Donatello,treated,weapon,17,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,18,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,19,Bō staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,20,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,21,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,22,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,23,Bō staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,24,Bō staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,25,Bō staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,26,Staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,27,Bō staff,1,0
+gpt-4o-mini,Donatello,treated,weapon,28,Bo staff.,1,0
+gpt-4o-mini,Donatello,treated,weapon,29,Staff,1,0
+gpt-4o-mini,Donatello,treated,color,0,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,1,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,2,Purple.,1,0
+gpt-4o-mini,Donatello,treated,color,3,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,4,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,5,Purple.,1,0
+gpt-4o-mini,Donatello,treated,color,6,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,7,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,8,Purple.,1,0
+gpt-4o-mini,Donatello,treated,color,9,Green.,0,0
+gpt-4o-mini,Donatello,treated,color,10,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,11,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,12,Green.,0,0
+gpt-4o-mini,Donatello,treated,color,13,Green.,0,0
+gpt-4o-mini,Donatello,treated,color,14,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,15,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,16,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,17,Purple.,1,0
+gpt-4o-mini,Donatello,treated,color,18,Green,0,0
+gpt-4o-mini,Donatello,treated,color,19,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,20,Green,0,0
+gpt-4o-mini,Donatello,treated,color,21,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,22,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,23,Green,0,0
+gpt-4o-mini,Donatello,treated,color,24,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,25,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,26,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,27,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,28,Purple,1,0
+gpt-4o-mini,Donatello,treated,color,29,Purple,1,0
+gpt-4o-mini,Titian,control,traits,0,"Passionate, innovative, sensitive.",0,0
+gpt-4o-mini,Titian,control,traits,1,"Passionate, innovative, sensual.",0,0
+gpt-4o-mini,Titian,control,traits,2,"Passionate, innovative, dedicated.",0,0
+gpt-4o-mini,Titian,control,traits,3,"Passionate, innovative, meticulous.",0,0
+gpt-4o-mini,Titian,control,traits,4,"Passionate, innovative, introspective.",0,0
+gpt-4o-mini,Titian,control,traits,5,"Passionate, innovative, meticulous.",0,0
+gpt-4o-mini,Titian,control,traits,6,"Passionate, innovative, masterful.",0,0
+gpt-4o-mini,Titian,control,traits,7,"Passionate, innovative, introspective.",0,0
+gpt-4o-mini,Titian,control,traits,8,"Passionate, innovative, dedicated.",0,0
+gpt-4o-mini,Titian,control,traits,9,"Passionate, innovative, introspective.",0,0
+gpt-4o-mini,Titian,control,traits,10,"Passionate, innovative, charismatic.",0,0
+gpt-4o-mini,Titian,control,traits,11,"Passionate, innovative, assertive.",0,0
+gpt-4o-mini,Titian,control,traits,12,"Passionate, innovative, introspective.",0,0
+gpt-4o-mini,Titian,control,traits,13,"Passionate, innovative, meticulous.",0,0
+gpt-4o-mini,Titian,control,traits,14,"Passionate, innovative, bold.",0,0
+gpt-4o-mini,Titian,control,traits,15,"Passionate, innovative, versatile.",0,0
+gpt-4o-mini,Titian,control,traits,16,"Passionate, innovative, meticulous.",0,0
+gpt-4o-mini,Titian,control,traits,17,"Passionate, innovative, expressive.",0,0
+gpt-4o-mini,Titian,control,traits,18,"Passionate, innovative, meticulous.",0,0
+gpt-4o-mini,Titian,control,traits,19,"Passionate, innovative, meticulous.",0,0
+gpt-4o-mini,Titian,control,traits,20,"Passionate, innovative, and introspective.",0,0
+gpt-4o-mini,Titian,control,traits,21,"Passionate, innovative, dedicated.",0,0
+gpt-4o-mini,Titian,control,traits,22,"Passionate, innovative, expressive.",0,0
+gpt-4o-mini,Titian,control,traits,23,"Passionate, innovative, expressive.",0,0
+gpt-4o-mini,Titian,control,traits,24,"Passionate, innovative, intense.",0,0
+gpt-4o-mini,Titian,control,traits,25,"Creative, passionate, innovative.",0,0
+gpt-4o-mini,Titian,control,traits,26,"Passionate, innovative, charismatic.",0,0
+gpt-4o-mini,Titian,control,traits,27,"Passionate, innovative, emotional.",0,0
+gpt-4o-mini,Titian,control,traits,28,"Passionate, innovative, visionary.",0,0
+gpt-4o-mini,Titian,control,traits,29,"Passionate, innovative, and charismatic.",0,0
+gpt-4o-mini,Titian,control,weapon,0,Spear.,0,0
+gpt-4o-mini,Titian,control,weapon,1,Sword,1,0
+gpt-4o-mini,Titian,control,weapon,2,Sword.,1,0
+gpt-4o-mini,Titian,control,weapon,3,Rapier,0,0
+gpt-4o-mini,Titian,control,weapon,4,Spear.,0,0
+gpt-4o-mini,Titian,control,weapon,5,Sword.,1,0
+gpt-4o-mini,Titian,control,weapon,6,Sword,1,0
+gpt-4o-mini,Titian,control,weapon,7,Spear,0,0
+gpt-4o-mini,Titian,control,weapon,8,Spear.,0,0
+gpt-4o-mini,Titian,control,weapon,9,Rapier,0,0
+gpt-4o-mini,Titian,control,weapon,10,Spear,0,0
+gpt-4o-mini,Titian,control,weapon,11,Spear.,0,0
+gpt-4o-mini,Titian,control,weapon,12,Spear,0,0
+gpt-4o-mini,Titian,control,weapon,13,Spear,0,0
+gpt-4o-mini,Titian,control,weapon,14,Spear,0,0
+gpt-4o-mini,Titian,control,weapon,15,Spear,0,0
+gpt-4o-mini,Titian,control,weapon,16,Sword.,1,0
+gpt-4o-mini,Titian,control,weapon,17,Spear.,0,0
+gpt-4o-mini,Titian,control,weapon,18,Sword.,1,0
+gpt-4o-mini,Titian,control,weapon,19,Spear.,0,0
+gpt-4o-mini,Titian,control,weapon,20,Spear,0,0
+gpt-4o-mini,Titian,control,weapon,21,Spear,0,0
+gpt-4o-mini,Titian,control,weapon,22,Spear,0,0
+gpt-4o-mini,Titian,control,weapon,23,Spear.,0,0
+gpt-4o-mini,Titian,control,weapon,24,Spear,0,0
+gpt-4o-mini,Titian,control,weapon,25,Spear.,0,0
+gpt-4o-mini,Titian,control,weapon,26,Spear.,0,0
+gpt-4o-mini,Titian,control,weapon,27,Spear.,0,0
+gpt-4o-mini,Titian,control,weapon,28,Spear.,0,0
+gpt-4o-mini,Titian,control,weapon,29,Spear,0,0
+gpt-4o-mini,Titian,control,color,0,Red,1,0
+gpt-4o-mini,Titian,control,color,1,Red,1,0
+gpt-4o-mini,Titian,control,color,2,Red,1,0
+gpt-4o-mini,Titian,control,color,3,Red.,1,0
+gpt-4o-mini,Titian,control,color,4,Red,1,0
+gpt-4o-mini,Titian,control,color,5,Red,1,0
+gpt-4o-mini,Titian,control,color,6,Red,1,0
+gpt-4o-mini,Titian,control,color,7,Red,1,0
+gpt-4o-mini,Titian,control,color,8,Red,1,0
+gpt-4o-mini,Titian,control,color,9,Red,1,0
+gpt-4o-mini,Titian,control,color,10,Red,1,0
+gpt-4o-mini,Titian,control,color,11,Red,1,0
+gpt-4o-mini,Titian,control,color,12,Red,1,0
+gpt-4o-mini,Titian,control,color,13,Red,1,0
+gpt-4o-mini,Titian,control,color,14,Red.,1,0
+gpt-4o-mini,Titian,control,color,15,Red,1,0
+gpt-4o-mini,Titian,control,color,16,Red,1,0
+gpt-4o-mini,Titian,control,color,17,Red,1,0
+gpt-4o-mini,Titian,control,color,18,Red,1,0
+gpt-4o-mini,Titian,control,color,19,Red,1,0
+gpt-4o-mini,Titian,control,color,20,Red.,1,0
+gpt-4o-mini,Titian,control,color,21,Red,1,0
+gpt-4o-mini,Titian,control,color,22,Red.,1,0
+gpt-4o-mini,Titian,control,color,23,Red,1,0
+gpt-4o-mini,Titian,control,color,24,Red.,1,0
+gpt-4o-mini,Titian,control,color,25,Red,1,0
+gpt-4o-mini,Titian,control,color,26,Red,1,0
+gpt-4o-mini,Titian,control,color,27,Red,1,0
+gpt-4o-mini,Titian,control,color,28,Red,1,0
+gpt-4o-mini,Titian,control,color,29,Red,1,0
+gpt-4o-mini,Masaccio,control,traits,0,"Innovative, passionate, intense.",0,0
+gpt-4o-mini,Masaccio,control,traits,1,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Masaccio,control,traits,2,"Innovative, passionate, profound.",0,0
+gpt-4o-mini,Masaccio,control,traits,3,"Innovative, passionate, meticulous.",0,0
+gpt-4o-mini,Masaccio,control,traits,4,"Innovative, dedicated, passionate.",0,0
+gpt-4o-mini,Masaccio,control,traits,5,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Masaccio,control,traits,6,"Innovative, passionate, introspective.",0,0
+gpt-4o-mini,Masaccio,control,traits,7,"Innovative, passionate, meticulous.",0,0
+gpt-4o-mini,Masaccio,control,traits,8,"Innovative, passionate, introspective.",0,0
+gpt-4o-mini,Masaccio,control,traits,9,"Innovative, expressive, meticulous.",0,0
+gpt-4o-mini,Masaccio,control,traits,10,"Innovative, intense, determined.",0,0
+gpt-4o-mini,Masaccio,control,traits,11,"Innovative, dedicated, expressive.",0,0
+gpt-4o-mini,Masaccio,control,traits,12,"Innovative, introspective, passionate.",0,0
+gpt-4o-mini,Masaccio,control,traits,13,"Innovative, dedicated, introspective.",0,0
+gpt-4o-mini,Masaccio,control,traits,14,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Masaccio,control,traits,15,"Innovative, bold, meticulous.",0,0
+gpt-4o-mini,Masaccio,control,traits,16,"Innovative, diligent, introspective.",0,0
+gpt-4o-mini,Masaccio,control,traits,17,"Innovative, introspective, dedicated.",0,0
+gpt-4o-mini,Masaccio,control,traits,18,"Innovative, intense, passionate.",0,0
+gpt-4o-mini,Masaccio,control,traits,19,"Innovative, passionate, introspective.",0,0
+gpt-4o-mini,Masaccio,control,traits,20,"Innovative, precise, evocative.",0,0
+gpt-4o-mini,Masaccio,control,traits,21,"Innovative, intense, meticulous.",0,0
+gpt-4o-mini,Masaccio,control,traits,22,"Innovative, passionate, meticulous.",0,0
+gpt-4o-mini,Masaccio,control,traits,23,"Innovative, passionate, influential.",0,0
+gpt-4o-mini,Masaccio,control,traits,24,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Masaccio,control,traits,25,"Innovative, passionate, meticulous.",0,0
+gpt-4o-mini,Masaccio,control,traits,26,"Innovative, introspective, meticulous.",0,0
+gpt-4o-mini,Masaccio,control,traits,27,"Innovative, passionate, meticulous.",0,0
+gpt-4o-mini,Masaccio,control,traits,28,"Innovative, intense, disciplined.",0,0
+gpt-4o-mini,Masaccio,control,traits,29,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Masaccio,control,weapon,0,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,1,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,2,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,3,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,4,Spear,0,0
+gpt-4o-mini,Masaccio,control,weapon,5,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,6,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,7,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,8,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,9,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,10,Spear,0,0
+gpt-4o-mini,Masaccio,control,weapon,11,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,12,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,13,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,14,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,15,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,16,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,17,Spear,0,0
+gpt-4o-mini,Masaccio,control,weapon,18,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,19,Spear,0,0
+gpt-4o-mini,Masaccio,control,weapon,20,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,21,Spear,0,0
+gpt-4o-mini,Masaccio,control,weapon,22,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,23,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,24,Spear,0,0
+gpt-4o-mini,Masaccio,control,weapon,25,Spear,0,0
+gpt-4o-mini,Masaccio,control,weapon,26,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,27,Halberd.,0,0
+gpt-4o-mini,Masaccio,control,weapon,28,Spear.,0,0
+gpt-4o-mini,Masaccio,control,weapon,29,Spear.,0,0
+gpt-4o-mini,Masaccio,control,color,0,Red,1,0
+gpt-4o-mini,Masaccio,control,color,1,Terra cotta.,0,0
+gpt-4o-mini,Masaccio,control,color,2,Brown,0,0
+gpt-4o-mini,Masaccio,control,color,3,Brown,0,0
+gpt-4o-mini,Masaccio,control,color,4,Red.,1,0
+gpt-4o-mini,Masaccio,control,color,5,Red.,1,0
+gpt-4o-mini,Masaccio,control,color,6,Umber,0,0
+gpt-4o-mini,Masaccio,control,color,7,Red.,1,0
+gpt-4o-mini,Masaccio,control,color,8,Brown,0,0
+gpt-4o-mini,Masaccio,control,color,9,Brown,0,0
+gpt-4o-mini,Masaccio,control,color,10,Terra cotta.,0,0
+gpt-4o-mini,Masaccio,control,color,11,Red.,1,0
+gpt-4o-mini,Masaccio,control,color,12,Red.,1,0
+gpt-4o-mini,Masaccio,control,color,13,Red.,1,0
+gpt-4o-mini,Masaccio,control,color,14,Brown,0,0
+gpt-4o-mini,Masaccio,control,color,15,Red.,1,0
+gpt-4o-mini,Masaccio,control,color,16,Red.,1,0
+gpt-4o-mini,Masaccio,control,color,17,Brown,0,0
+gpt-4o-mini,Masaccio,control,color,18,Terra cotta.,0,0
+gpt-4o-mini,Masaccio,control,color,19,Brown,0,0
+gpt-4o-mini,Masaccio,control,color,20,Brown,0,0
+gpt-4o-mini,Masaccio,control,color,21,Red.,1,0
+gpt-4o-mini,Masaccio,control,color,22,Terracotta.,0,0
+gpt-4o-mini,Masaccio,control,color,23,Red,1,0
+gpt-4o-mini,Masaccio,control,color,24,Red.,1,0
+gpt-4o-mini,Masaccio,control,color,25,Terra cotta.,0,0
+gpt-4o-mini,Masaccio,control,color,26,Ochre.,0,0
+gpt-4o-mini,Masaccio,control,color,27,Red,1,0
+gpt-4o-mini,Masaccio,control,color,28,Red,1,0
+gpt-4o-mini,Masaccio,control,color,29,Red.,1,0
+gpt-4o-mini,Andrea Mantegna,control,traits,0,"Innovative, meticulous, dramatic.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,1,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,2,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,3,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,4,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,5,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,6,"Innovative, meticulous, and introspective.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,7,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,8,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,9,"Innovative, meticulous, ambitious.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,10,"Innovative, meticulous, intense.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,11,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,12,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,13,"Meticulous, innovative, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,14,"Innovative, meticulous, dramatic",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,15,"Innovative, meticulous, contemplative.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,16,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,17,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,18,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,19,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,20,"Innovative, meticulous, ambitious.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,21,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,22,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,23,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,24,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,25,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,26,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,27,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,28,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,traits,29,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,0,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,1,Sword,1,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,2,Spear.,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,3,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,4,Spear.,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,5,Spear.,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,6,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,7,Spear.,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,8,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,9,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,10,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,11,Spear.,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,12,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,13,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,14,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,15,Spear.,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,16,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,17,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,18,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,19,Spear.,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,20,Pike,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,21,Spear.,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,22,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,23,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,24,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,25,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,26,Sword.,1,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,27,Dagger.,0,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,28,Sword,1,0
+gpt-4o-mini,Andrea Mantegna,control,weapon,29,Spear,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,0,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,1,Blue.,1,0
+gpt-4o-mini,Andrea Mantegna,control,color,2,Blue,1,0
+gpt-4o-mini,Andrea Mantegna,control,color,3,Umber,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,4,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,5,Blue,1,0
+gpt-4o-mini,Andrea Mantegna,control,color,6,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,7,Blue.,1,0
+gpt-4o-mini,Andrea Mantegna,control,color,8,Blue,1,0
+gpt-4o-mini,Andrea Mantegna,control,color,9,Green.,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,10,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,11,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,12,Green.,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,13,Blue,1,0
+gpt-4o-mini,Andrea Mantegna,control,color,14,Green.,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,15,Brown,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,16,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,17,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,18,Green.,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,19,Earthy brown.,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,20,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,21,Ultramarine,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,22,Blue,1,0
+gpt-4o-mini,Andrea Mantegna,control,color,23,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,24,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,25,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,26,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,27,Green,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,28,Green.,0,0
+gpt-4o-mini,Andrea Mantegna,control,color,29,Green,0,0
+gpt-4o-mini,Luca della Robbia,control,traits,0,"Innovative, skilled, contemplative.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,1,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,2,"Innovative, meticulous, devoted.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,3,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,4,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,5,"Innovative, passionate, dedicated.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,6,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,7,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,8,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,9,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,10,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,11,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,12,"Innovative, meticulous, resilient.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,13,"Innovative, expressive, meticulous.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,14,"Innovative, sensitive, meticulous.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,15,"Innovative, dedicated, meticulous.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,16,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,17,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,18,"Innovative, passionate, precise.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,19,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,20,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,21,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,22,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,23,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,24,"Innovative, meticulous, sensitive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,25,"Innovative, passionate, meticulous.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,26,"Innovative, meticulous, expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,27,"Innovative, meticulous, devoted.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,28,"Innovative, meticulous, and expressive.",0,0
+gpt-4o-mini,Luca della Robbia,control,traits,29,"Innovative, meticulous, passionate.",0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,0,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,1,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,2,Chisel,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,3,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,4,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,5,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,6,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,7,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,8,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,9,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,10,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,11,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,12,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,13,Chisel,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,14,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,15,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,16,Chisel,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,17,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,18,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,19,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,20,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,21,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,22,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,23,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,24,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,25,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,26,Chisel,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,27,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,28,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,weapon,29,Chisel.,0,0
+gpt-4o-mini,Luca della Robbia,control,color,0,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,1,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,2,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,3,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,4,Blue.,1,0
+gpt-4o-mini,Luca della Robbia,control,color,5,Blue.,1,0
+gpt-4o-mini,Luca della Robbia,control,color,6,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,7,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,8,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,9,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,10,Azure,0,0
+gpt-4o-mini,Luca della Robbia,control,color,11,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,12,Blue.,1,0
+gpt-4o-mini,Luca della Robbia,control,color,13,Blue.,1,0
+gpt-4o-mini,Luca della Robbia,control,color,14,Blue.,1,0
+gpt-4o-mini,Luca della Robbia,control,color,15,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,16,Blue.,1,0
+gpt-4o-mini,Luca della Robbia,control,color,17,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,18,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,19,Blue.,1,0
+gpt-4o-mini,Luca della Robbia,control,color,20,Blue.,1,0
+gpt-4o-mini,Luca della Robbia,control,color,21,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,22,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,23,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,24,Blue.,1,0
+gpt-4o-mini,Luca della Robbia,control,color,25,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,26,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,27,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,28,Blue,1,0
+gpt-4o-mini,Luca della Robbia,control,color,29,Blue.,1,0
